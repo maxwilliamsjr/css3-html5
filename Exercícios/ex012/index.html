@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="250" poster="imagens/html.ICO copy.ico" controls autoplay loop>
+        <source src="midia/video.mp4.mp4" type="video/mp4">
+        <source src="midia/Video.mkv.mkv" type="video/mp4">
+        <source src="midia/Video.webm.webm" type="video/webm">
+        <source src="midia/video.ogv" type="video/ogg"> <!--aqui eu coloco o ogv, porém precisa do vídeo convertido-->
+        <p>Seu navegador não tem compatibilkidade com reprodução de vídeos. <a href="midia/video.mp4.mp4">Clique aqui</a> para baixar.</p>
+
+        <!--Não esquecer que quando segue a lista de sources, segue uma ordem certa, tipo if else, ou seja, se um não der, vai para o outro-->
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="250" height="315" src="https://www.youtube.com/embed/5jFJoWegTv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

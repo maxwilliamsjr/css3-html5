@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS vira #   pode um elemento
+   em HTML é class = em CSS é .   pode vários elementos
+*/
+
+/* id é único, eu só posso ter um id principal, por exemplo, se eu quiser mais coisas repetidas, eu uso class.
+*/
+
+body{
+    background-color: rgb(206, 245, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color: rgb(126, 162, 126);
+}
+
+h2.basico{
+    color: rgb(68, 106, 68);
+    font-weight: bold;
+}
+
+h2.intermediario{
+    color: rgb(102, 106, 68);
+    font-weight: bold;
+}
+
+h2.avancado{
+    color: rgb(106, 68, 68);
+    font-weight: bold;
+}
+
+.destaque{
+    background-color: rgba(107, 107, 0, 0.474);
+}
