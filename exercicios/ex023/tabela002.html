@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -26,9 +27,23 @@
 
         }
 
-        thead{
+        thead > tr> th{
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
             background-color: gray;
             color: white
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: yellow;
+        }
+
+        tbody > tr:nth-child(2n){          /*aqui eu deixo a tabela zebrada, pode ser odd, even ou ?n*/
+            background-color: blue;
         }
 
         td.num{
@@ -110,5 +125,12 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nulla iste suscipit, reiciendis, hic optio harum eaque voluptate odit facere fugiat ipsum pariatur quae? Ex dolorem ipsa eaque et saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum veniam ratione tempore cumque, inventore aperiam sint autem consectetur ipsa impedit pariatur dicta, quas molestias. Corporis ipsum ratione cumque corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere vel, deleniti consequatur, cum qui aperiam fuga repudiandae assumenda aspernatur sint nobis tenetur incidunt distinctio perferendis non! Velit, numquam quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae placeat odit praesentium ducimus qui assumenda suscipit ex minus? Quod earum dolorum corrupti explicabo consectetur error molestias harum est? Temporibus?</p>
 </body>
 </html>
